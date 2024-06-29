@@ -1,6 +1,6 @@
 import React, { useState, useContext, FormEvent } from "react";
 import { MdDeleteForever, MdClose } from "react-icons/md";
-import GlobalContext from "context/GlobalContext";
+import GlobalContext from "../context/GlobalContext";
 
 interface CalendarEvent {
   title: string;

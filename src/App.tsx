@@ -2,8 +2,10 @@ import { useState, useEffect, useContext } from "react";
 import { getMonth } from "./util";
 import { Header } from "./components/Header";
 import { Month } from "./components/Month";
-import GlobalContext from "context/GlobalContext";
+import GlobalContext from "./context/GlobalContext";
 import { EventModal } from "./components/EventModal";
+
+import "../build/styles.css";
 
 const App = () => {
   const [currentMonth, setCurrentMonth] = useState(getMonth());

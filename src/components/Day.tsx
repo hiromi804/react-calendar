@@ -1,7 +1,7 @@
 import { useContext, useState, useEffect } from "react";
 import dayjs from "dayjs";
-import GlobalContext from "context/GlobalContext";
-import { eventType } from "context/GlobalContext";
+import GlobalContext from "../context/GlobalContext";
+import { eventType } from "../context/GlobalContext";
 
 interface DayProps {
   day: dayjs.Dayjs;
